@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="MSI, mainboard, płyta główna ">
+    <meta name="description" content="Charakterystyka płyty głównej. Opis komponentów">
+    <meta name="author" content="Adam Guzik">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <meta name="editor" content="Jetbrain Webstorm">
+
+
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<main id="mainboardMain">
+
+    <section id="mainboardPhoto">
+        <article>
+            <div id="mainboard"></div>
+            <div id="cpu">
+            <div class="tooltiptext">
+                <i class="fas fa-microchip fa-4x"></i>
+
+                <h4>Płyta Główna</h4>
+
+            </div> </div>
+            <div id="ram">
+                <div class="tooltiptext">
+                    <i class="fas fa-memory fa-4x"></i>
+
+                    Pamięć RAM
+                </div></div>
+            <div id="port">
+                <div class="tooltiptext"><i class="fab fa-usb fa-3x"></i>Zewnętrzne złącza</div></div>
+            <div id="pcie">
+                <span class="tooltiptext"><i class="fas fa-desktop fa-4x"></i><h2>PCI Express</h2></span></div>
+            <div id="m2"><span class="tooltiptext"><i class="fas fa-save fa-3x"></i><h3>Slot M.2</h3></span></div>
+            <div id="audio"><div class="tooltiptext">
+                <i class="fas fa-headphones fa-3x"></i><h4>MSI Audio Boost</h4>
+            </div>
+            </div>
+            <div id="led"><span class="tooltiptext">
+                <i class="fad fa-lightbulb-on fa-3x">
+                </i>Podświetlenie RGB LED</span>
+            </div>
+            <div id="sata">
+                <div class="tooltiptext"><i class="fas fa-hdd fa-4x"></i><h5>Porty SATA III (6 Gb/s)</h5></div></div>
+            <div id="portw">
+                <div class="tooltiptext">
+                    <i class="fab fa-usb fa-3x"></i>Wewnętrzne złącza</div></div>
+
+            <div id="pci">
+            <div class="tooltiptext">
+                <i class="fas fa-desktop fa-3x"></i><h3>Port PCI</h3></div>
+                </div>
+        </article>
+    </section>
+    <section id="mainboardLegend">
+        <h2>LEGENDA</h2>
+
+        <div id="cpuInfo" class="hide">
+            <h1>Opis Gniazda Procesora</h1>
+            <div class="describe">
+
+            <h3>Obsługiwane rodziny procesorów: AMD Ryzen™</h3>
+                <h3>Gniazdo procesora: Socket AM4</h3>
+                <h3>Chipset: AMD B550</h3>
+        </div>
+            </div>
+                <div id="ramInfo" class="hide">
+                 <div class="describe">
+                <h1>Typ obsługiwanej pamięci OC:</h1>
+                    <h3>Liczba banków pamięci :</h3><h5> 4 x DIMM</h5>
+                    <h3>Maksymalna wielkość pamięci RAM :</h3><h5> 128 GB</h5>
+                    <h3>Architektura pamięci :</h3> <h5>Dual-channel</h5>
+                </div>
+                    </div>
+        <div id="m2Info" class="hide">
+            <div class="describe">
+                <h3>Standard M.2. do komunikacji z płytą główną wykorzystuje interfejs PCIe (aktualnie rozwijana wersja to PCIe 3.0), który pozwala ominąć ograniczenia standardu SATA 3. W zależności od liczby obsługiwanych linii PCIe, przepustowość dysków M.2 PCIe może wynosić od 1 GB/s (8 Gb/s) w przypadku modeli PCIe 2.0 x2 lub 3.0 x1 do 8 GB/s (32 Gb/s) w przypadku modeli PCIe 3.0 x4.</h3>
+                </div>
+            </div>
+
+        <div id="portInfo" class="hide">
+            <h2>Zewnętrzne złącza:</h2>
+            <div class="describe">
+            <h4>HDMI - 1 szt.      USB 3.1 Gen.2 - 1 szt.</h4>
+            <h4>DisplayPort - 1 szt.    USB 2.0 - 4 szt.</h4>
+            <h4>RJ45 (LAN) - 1 szt.    PS/2 klawiatura/mysz - 1 szt.</h4>
+            <h4>USB Type-C - 1 szt.   Audio jack - 5 szt.</h4>
+            <h4>S/PDIF - 1 szt.</h4>
+            <h4>Złącze anteny Wi-Fi - 2 szt.</h4>
+            <h4>Flash BIOS Button - 1 szt.</h4>
+            </div>
+        </div>
+        <div id="pcieInfo" class="hide">
+            <div class="describe">
+                <h3>1x HDMI port, supports a maximum resolution of 4096x2160 @24Hz</h3>
+                <h3>1x DisplayPort, supports a maximum resolution of 4096x2160 @60Hz</h3>
+                <h3>Maximum shared memory of 2048 MB</h3>
+        </div>
+                </div>
+
+         <div id="audioInfo" class="hide">
+             <div class="describe">
+                 <h3>MSI Audio Boost to połączenie najlepszego na rynku (jak na programowe możliwości) kodeka audio Realtek ALC1150 ze wzmacniaczami słuchawkowymi OPA1652 oraz wysokiej jakości kondensatorami w torze audio.</h3>
+         </div>
+                 </div>
+         <div id="sataInfo" class="hide">
+              <div class="describe">
+                  <h3>Przepustowość maksymalna tego interfejsu wynosi 6 Gbit/s, czyli jest dwukrotnie większa od SATA II (3 Gbit/s) i nieco mniejsza od Ultra 640 SCSI (6 Gbit/s = 750 MB/s przy kodowaniu 8b/10b).</h3>
+          </div>
+                  </div>
+
+
+    </section>
+</main>
+
+
+
+
+
+
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,172 @@
+body {
+    background-image:url("../img/tło.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+#mainboard {
+    background-image: url("../img/mainboard.png");
+    background-size: contain ;
+    background-repeat: no-repeat;
+    width: 750px;
+    height: 900px;
+}
+
+
+#cpu,
+#m2,
+#ram,
+#port,
+#pcie,
+#m2,
+#audio,
+#led,
+#sata,
+#portw,
+#pci
+
+{
+    width:40px;
+    height:40px;
+    background-image: url("../img/Dot.png");
+    position: absolute;
+    top:275px;
+    left:380px;
+}
+#ram{
+    top:300px;
+    left:584px;
+}
+
+#port{
+    top:250px;
+    left:80px;
+}
+#pcie{
+    top:715px;
+    left:270px;
+}
+
+#m2{
+    top:474px;
+    left:280px;
+}
+#audio {
+    top: 770px;
+    left: 82px;
+}
+
+#led {
+    top: 600px;
+    left: 450px;
+}
+#sata {
+    top: 690px;
+    left: 700px;
+}
+#portw {
+    top: 420px;
+    left: 700px;
+}
+
+#pci {
+    top:800px;
+    left:180px;
+}
+
+
+/* Tooltip text */
+#cpu .tooltiptext,
+#ram .tooltiptext,
+#port .tooltiptext,
+#pcie .tooltiptext,
+#m2 .tooltiptext,
+#audio .tooltiptext,
+#led .tooltiptext,
+#sata .tooltiptext,
+#portw .tooltiptext,
+#pci .tooltiptext
+{
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+#cpu:hover .tooltiptext,
+#ram:hover .tooltiptext,
+#port:hover .tooltiptext,
+#pcie:hover .tooltiptext,
+#m2:hover .tooltiptext,
+#audio:hover .tooltiptext,
+#led:hover .tooltiptext,
+#sata:hover .tooltiptext,
+#portw:hover .tooltiptext,
+#pci:hover .tooltiptext
+
+{
+    visibility: visible;
+}
+
+#mainboardMain{
+    display: flex;
+}
+#mainboardPhoto{
+    width: 50%;
+}
+#mainboardLegend {
+    width: 50%;
+}
+
+.hide{
+    display:none;
+}
+
+#ramInfo .describe,
+#cpuInfo .describe,
+#m2Info .describe,
+#portInfo .describe,
+#pcieInfo .describe,
+#audioInfo .describe,
+#sataInfo .describe
+{
+    background-image: url("../img/3-chlodzenie.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    padding: 10px;
+    width:80%;
+    height:420px;
+    color:white;
+    text-shadow: black 2px 2px 5px;
+    font-size: 1.2em;
+    border-radius: 20px;
+    border: 3px solid white;
+    box-shadow:rgba(0,0,0,0.5) 10px 10px 5px;
+}
+#ramInfo .describe{
+    background-image: url("../img/ram.jpg")
+}
+#m2Info .describe{
+    background-image: url("../img/m2.jpg")
+}
+#portInfo .describe {
+    background-image: url("../img/4-zlacza-audio (1).jpg")
+}
+#pcieInfo .describe {
+    background-image: url("../img/b550-lighting_img.jpg")
+}
+#audioInfo .describe {
+    background-image: url("../img/audio.jpg")
+}
+#sataInfo .describe {
+    background-image: url("../img/sata.jpg")
+}
